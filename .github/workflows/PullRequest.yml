@@ -1,0 +1,17 @@
+name: My First Push
+on:
+  pull_request:
+
+jobs:
+  Tarea1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Datos del Push
+        run: |
+          echo "Datos destino: ${{ github.event.pull_request.base.ref }}"
+          echo "Datos origen: ${{ github.event.pull_request.head.ref }}"
+          echo "Titulo: ${{ github.event.pull_request.title }}"
+          echo "Contenido: ${{ github.event.pull_request.body }}"
+          echo "Estado: ${{ github.event.pull_request.state }}"
+          echo "Merged: ${{ github.event.pull_request.merged }}"
