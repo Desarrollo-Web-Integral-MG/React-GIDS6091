@@ -18,6 +18,11 @@ jobs:
         run: echo "Welcome a todos"
 
       - name: FechaSistema
-        run: echo "Bienvenidos a primer desafío" echo "Donde fue creado mi primer Workflow" echo "Gracias a Dios" echo "El día" date
+        run: 
+          echo "Bienvenidos a primer desafío" 
+          echo "Donde fue creado mi primer Workflow" 
+          echo "Gracias a Dios" 
+          echo "El día" 
+          date
         
       
