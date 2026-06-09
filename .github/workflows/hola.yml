@@ -4,10 +4,10 @@ on:
 
 jobs:
   Tarea1:
-    runs.on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Dí hola
-        run: echo "Hello World"
+        run: echo "Monse Castañon"
         
       
