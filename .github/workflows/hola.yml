@@ -18,6 +18,9 @@ jobs:
         run: echo "Welcome a todos"
 
       - name: Fecha del Sistema
-        run: date
+        run: |
+          echo "Bienvenidos a mi primer desafío"
+          echo "La fecha de hoy es:"
+          date
         
       
